@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Accueil | Campus Saint-Marc</title>
+        <!--  Déclaration des Feuilles de Styles -->
+        <link rel="stylesheet" href="./css/normalize.css">
+        <link rel="stylesheet" href="./css/styles.css">
+        <!--  Google Font -->
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+        <!--  Font Awesome | Icons -->
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    </head>
+    <body>
+        <!-- Le Contenu de ma Page -->
+        <div class="page">
+            
+            <p><strong>Campus St Marc</strong> | 7 écoles au coeur de Rouen</p>
+
+            <!-- TOP HEADER -->
+            <div class="topheader">
+                <p>Espace Clients : 
+                    <a href="#">Connexion</a> | 
+                    <a href="#">Inscription</a>
+                </p>
+            </div>
+
+            <!-- HEADER -->
+            <header>
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="./img/logo.jpg" 
+                            alt="Logo Campus Saint-Marc">
+                    </a>
+                </div>
+                <!-- nav>ul>li*3>a[href=#] -->
+                <nav>
+                    <ul>
+                        <li class="current"><a href="index.html">Accueil</a></li>
+                        <li><a href="#">Présentation</a></li>
+                        <li><a href="#">Nos Formations</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>                
+            </header>
+        </div> <!-- /.page -->
+        <!-- PROJECTEUR -->
+        <div id="projecteur">
+            <img src="./img/bandeau-saint-marc.jpg" 
+                alt="Campus Saint-Marc">
+        </div>
+        <div class="page">
+            <section>
+                <aside>
+                    <img src="./img/illustration.jpg" 
+                        alt="Campus Saint-Marc Devanture">
+                </aside>
+                <article>
+                    <h3>Le Campus Saint-Marc</h3>
+                    <p>« 80 % des métiers d’aujourd’hui auront disparu dans 20 ans » disent les experts.</p>
+                    <p>Les métiers du <span>management</span>, du <span></span>marketing</span>, de la <span>santé</span>, du <span>bien être</span> survivront mais <u>les pratiques vont significativement évoluer...</u> C’est la conviction du Campus Saint Marc. Hyper connexion, dématérialisation, mondialisation : l’environnement dans lequel nous vivons nous amène sans cesse à <span>découvrir de nouveaux outils</span>, à concevoir de nouveaux process.</p>
+                    <p>Dans un tel contexte, <u>il faut former des esprits créatifs, flexibles et entreprenants.</u> Les dernières innovations du campus saint marc <span>vont précisément dans ce sens</span> avec le lancement de l’accélérateur de startups   <span>NFactory</span>.</p>
+                </article>
+
+                <!-- PARTENAIRES -->
+                <div class="partenaires">
+                    <h2>Nos Partenaires</h2>
+                    <ul>
+                        <li><img src="./img/logos/cp11.jpg" alt="Logo 1"></li>
+                        <li><img src="./img/logos/fond_norbert_segard.jpg" alt="Logo 2"></li>
+                        <li><img src="./img/logos/frenchtech.jpg" alt="Logo 3"></li>
+                        <li><img src="./img/logos/logo_cge_web.jpg" alt="Logo 4"></li>
+                    </ul>
+                </div> <!-- /.partenaires -->
+            </section>
+        </div> <!-- /.page -->
+        <footer>
+            <div class="page">
+                <div class="gmap">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d399.84446611335574!2d1.1016075098758005!3d49.43825178317738!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e0de7e33f06301%3A0xf222fa5aa4ab7587!2sCampus+Saint+Marc!5e0!3m2!1sfr!2sfr!4v1508406559046" width="100%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+                <div class="newsletter">
+                    <form name="newsletter" 
+                            action="newsletter.php"
+                            method="POST">
+
+                        <fieldset>
+                            <legend>Newsletter</legend>
+                            <input type="text" name="nom" placeholder="Nom">
+                            <input type="text" name="prenom" placeholder="Prénom">
+                            <input type="email" name="email" placeholder="Email" 
+                                required>
+                            <input type="submit" value="M'inscrire !">
+                        </fieldset>
+
+                    </form>
+                </div>
+                <div class="contact">
+                    <h3>Contactez-nous</h3>
+                    <address>
+                        <strong>Campus Saint-Marc</strong><br>
+                        <a href="tel:+330232102501"><i class="fa fa-phone" aria-hidden="true"></i> 02 32 10 25 01</a><br>
+                        <a href="mailto:campussaintmarc@gmail.com">
+                                <i class="fa fa-envelope" aria-hidden="true"></i> campussaintmarc@gmail.com
+                        </a> <br>
+                        18/28 Place Saint-Marc,<br>
+                        76000 Rouen<br>
+                        FRANCE
+                    </address>
+                </div>
+            </div> <!-- /.page -->
+        </footer>
+    </body>
+</html>
